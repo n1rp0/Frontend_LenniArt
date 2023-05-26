@@ -279,17 +279,18 @@ img {
 .page-header__container {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  width: 100%;
+  max-width: 1414px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
-  max-width: 1414px;
-  margin: 0 auto;
-  padding-left: 40px;
-  padding-right: 40px;
 }
 .page-header__logo {
   -ms-flex-negative: 0;
@@ -337,4 +338,10 @@ img {
       -ms-flex-align: center;
           align-items: center;
   width: 202px;
+}
+.display-none {
+  display: none;
+}
+.color-red {
+  color: #bc3324;
 }

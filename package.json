@@ -23,7 +23,8 @@
     "imagemin-mozjpeg": "^10.0.0",
     "imagemin-optipng": "^8.0.0",
     "postcss": "^8.4.5",
-    "postcss-sort-media-queries": "^4.2.1"
+    "postcss-sort-media-queries": "^4.2.1",
+    "prettier": "2.8.8"
   },
   "scripts": {
     "build": "gulp build",
