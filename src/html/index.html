@@ -2,22 +2,62 @@
 <html lang="ru">
   <!-- prettier-ignore -->
   @@include('blocks/head.html')
+
   <body class="body">
     <!-- prettier-ignore -->
     @@include('blocks/page-header.html')
-    <main class="main">
+
+    <main class="main"></main>
       <div class="logo">
         <!-- prettier-ignore -->
         @@include('blocks/main-logo.html')
       </div>
+
+      <div class="main-events">
+        <h2 class="main-events__title">Мероприятия</h2>
+        <div class="main-events__listing">
+          <!--prettier-ignore-->
+          @@loop('blocks/event-card.html', [
+          {
+            "class": "listing__event-card",
+            "img": "assets/images/events/Nirvana.jpg",
+            "alt": "Nirvana",
+            "title": "Собираемся и слушаем альбом Nirvana. Nirvana",
+            "descr": "Это третий альбом группы, выпущенный после смерти Курта Кобейна и первый, студийный материал.",
+            "time": "07.12.2022 | начало 18.00",
+            "datetime": "2022-12-07T18:00"
+          },
+          {
+            "class": "listing__event-card",
+            "img": "assets/images/events/HowStuffWorks.jpg",
+            "alt": "HowStuffWorks",
+            "title": "Есть тема, нужно обсудить с HowStuffWorks",
+            "descr": "Один из самых популярных подкастов в мире. В нём авторы объясняют, как устроены разные вещи.",
+            "time": "14.12.2022 | начало 18.30",
+            "datetime": "2022-12-14T18:30"
+          },
+          {
+            "class": "listing__event-card",
+            "img": "assets/images/events/Sade.jpg",
+            "alt": "Sade",
+            "title": "Вечер | The Best of Sade",
+            "descr": "Музыка группы имеет эклектичный характер, сочетая в себе элементы музыки соул, джаза, ритм-блюза и фанка.",
+            "time": "16.12.2022 | начало 20.00",
+            "datetime": "2022-12-16T20:00"
+          }
+           ])
+        </div>
+      </div>
+
       <div class="home">
         <!-- prettier-ignore -->
         @@include('blocks/blog-listing.html', {"class": "home__listing"})
       </div>
-    </main>
+
     <footer class="page-footer">
       <!-- prettier-ignore -->
       @@include('blocks/page-footer.html')
     </footer>
+
   </body>
 </html>
