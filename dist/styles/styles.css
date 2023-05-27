@@ -1058,6 +1058,19 @@ textarea:focus::placeholder {
   font-size: 14px;
   line-height: 19px;
 }
+.check--red {
+  color: #bc3324;
+}
+.check--red .check__mark {
+  border-color: #bc3324;
+}
+.check--red .check__input:checked ~ .check__mark {
+  background-color: #bc3324;
+}
+.check--disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
 .x-btn {
   display: -webkit-box;
   display: -ms-flexbox;

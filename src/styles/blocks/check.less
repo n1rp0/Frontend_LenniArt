@@ -11,11 +11,12 @@
   cursor: pointer;
 
   &__input {
-    .is-hidden();
+    .is-hidden;
 
     &:checked {
       & ~ .check__mark {
         background-color: @black;
+
         &::after {
           content: "";
           display: block;
@@ -48,10 +49,31 @@
     font-weight: 300;
     font-size: 16px;
     line-height: 22px;
-    
+
     &--s {
       font-size: 14px;
       line-height: 19px;
     }
+  }
+
+  &--red {
+    color: @red;
+
+    .check__mark {
+      border-color: @red;
+    }
+
+    .check__input {
+      &:checked {
+        & ~ .check__mark {
+          background-color: @red;
+        }
+      }
+    }
+  }
+
+  &--disabled {
+    pointer-events: none;
+    opacity: 0.5;
   }
 }
