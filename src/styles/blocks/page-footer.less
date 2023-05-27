@@ -1,0 +1,123 @@
+.page-footer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+
+  &__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  &__btns {
+    display: flex;
+    flex-direction: row;
+    padding-right: 35px;
+  }
+
+  &__btns-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 22px;
+  }
+
+  &__about {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  &__sub {
+    padding-left: 605px;
+  }
+
+  &__sub-label {
+    font-family: @font1;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 24px;
+  }
+
+  &__sub-panel {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__sub-btn {
+    padding: 15px 23px;
+    border: 1px solid transparent;
+    background-color: @black;
+    outline: none;
+    width: 180px;
+    height: 55px;
+    color: @white;
+    font-family: @font1;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+    overflow: hidden;
+
+    &:hover {
+      color: @gray;
+    }
+  }
+
+  &__about-nav {
+    padding-top: 20px;
+  }
+
+  &__about-link {
+    margin-right: 60px;
+    font-family: @font1;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none;
+    color: @black;
+    text-decoration: transparent;
+    transition: color 0.2s, text-decoration-color 0.2s;
+
+    &:hover {
+      color: @red_dark;
+      text-decoration-color: @red_dark;
+    }
+  }
+
+  &__about-copyright {
+    padding-right: 143px;
+  }
+
+  &__social {
+    padding-right: 222px;
+  }
+
+  &__nav-link {
+    font-family: @font1;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none;
+    color: @black;
+    text-decoration: transparent;
+    transition: color 0.2s, text-decoration-color 0.2s;
+
+    &:hover {
+      color: @red_dark;
+      text-decoration-color: @red_dark;
+    }
+  }
+
+  &__tagree {
+    padding-top: 40px;
+  }
+}

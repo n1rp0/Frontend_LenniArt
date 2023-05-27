@@ -83,7 +83,66 @@
     </article>
   </main>
 
-  <footer class="page-footer"></footer>
+  <div class="page-footer__nav">
+    <div class="page-footer__btns">
+      <svg class="page-footer__red-line" width="4" height="198">
+        <use xlink:href="assets/icons/symbols.svg#red_rect"></use>
+      </svg>
+
+      <div class="page-footer__btns-nav">
+        <a href="#" class="page-footer__nav-link">Календарь мероприятий</a>
+        <a href="#" class="page-footer__nav-link">Провести мероприятие</a>
+        <a href="#" class="page-footer__nav-link">Стать арендатором</a>
+        <a href="#" class="page-footer__nav-link">Наши проекты</a>
+        <a href="#" class="page-footer__nav-link">Контакты</a>
+      </div>
+    </div>
+
+    <div class="page-footer__sub">
+      <div class="page-footer__sub-label">
+        Подпишись и будь в курсе происходящего
+      </div>
+
+      <div class="page-footer__sub-panel">
+        <label class="field form__field form__field">
+          <input class="field__input" type="text" placeholder="Email" name="email" />
+        </label>
+
+        <button type="submit" class="page-footer__sub-btn">Подписаться</button>
+      </div>
+
+      <div class="page-footer__sub-checkbox">
+        <div class="form__check-list">
+          <label class="form__check check">
+            <input type="checkbox" name="agree" class="check__input" checked />
+            <span class="check__mark"></span>
+            <span class="check__label check__label--s">
+              Согласен на обработку персональных данных
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-footer__about">
+    <div class="page-footer__about-copyright">
+      © Millennials 2022
+      <div class="page-footer__about-nav">
+        <a href="#" class="page-footer__about-link">Политика конфиденциальности</a>
+        <a href="#" class="page-footer__about-link">Cookies</a>
+      </div>
+    </div>
+
+    <svg class="page-footer__social" width="160" height="58">
+      <use xlink:href="assets/icons/symbols.svg#social"></use>
+    </svg>
+
+    <picture class="page-footer__tagree" width="160" height="58">
+      <img src="assets/images/tagree.png" alt="tagree" />
+    </picture>
+  </div>
+
 </body>
 
 </html>
