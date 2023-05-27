@@ -1408,7 +1408,7 @@ textarea:focus::placeholder {
   padding-left: 146px;
 }
 .events {
-  padding: 140px 0 100px;
+  padding: 140px 0 0 0;
 }
 .events__listing {
   margin-bottom: 100px;
@@ -1597,6 +1597,19 @@ textarea:focus::placeholder {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-bottom: 100px;
+}
+.page-footer__line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-bottom: 60px;
 }
 .page-footer__nav {
   display: -webkit-box;
