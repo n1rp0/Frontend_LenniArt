@@ -28,7 +28,7 @@ body {
           flex-direction: column;
   min-height: 100vh;
   background-color: #dedede;
-  background-image: url(../assets/images/noise.png), url(../assets/images/bg.png);
+  background-image: url(../assets/images/noise.png), url(../assets/images/background1920.png);
   background-position: 0 0, 0 0;
   background-size: auto, 100% auto;
   background-repeat: repeat, repeat-y;
@@ -1157,6 +1157,119 @@ textarea:focus::placeholder {
 }
 .content b {
   font-weight: 700;
+}
+.main-logo {
+  margin-top: 100px;
+  width: 100%;
+  min-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Lora", serif;
+  margin-bottom: 200px;
+}
+.main-logo__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 400;
+  font-size: 45px;
+  font-style: normal;
+  line-height: 58px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+  margin-top: 70px;
+}
+.main-logo__choice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main-logo__btn-label {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Lora", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 60px;
+}
+.main-logo__btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 624px;
+}
+.main-logo__lenni {
+  width: 100%;
+}
+.main-logo__red-btn {
+  padding: 15px 40px;
+  border: 1px solid #bc3324;
+  background-color: #bc3324;
+  outline: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+  -o-transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+  overflow: hidden;
+  cursor: pointer;
+}
+.main-logo__red-btn:hover {
+  background-color: #a51505;
+}
+.main-logo__white-btn {
+  padding: 15px 40px;
+  border: 1px solid #1f1e1e;
+  background-color: transparent;
+  outline: none;
+  color: #1f1e1e;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+  -o-transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+  overflow: hidden;
+  cursor: pointer;
+}
+.main-logo__white-btn:hover {
+  background-color: #1f1e1e;
+  color: #ffffff;
 }
 .events {
   padding: 140px 0 100px;
