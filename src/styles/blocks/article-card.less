@@ -18,11 +18,6 @@
     color: inherit;
     color: @black;
     transition: color 0.2s;
-
-    &:hover {
-      color: @red_dark;
-      text-decoration-color: @red_dark;
-    }
   }
 
   &__link {
@@ -94,7 +89,7 @@
 
   &__title-link {
     margin: auto 0 40px;
-    color: @black;
+    color: @red;
     text-decoration-color: transparent;
     transition: color 0.2s, text-decoration-color 0.2s;
     &:hover {
@@ -123,6 +118,10 @@
     bottom: 30px;
     color: inherit;
     transition: none;
+  }
+
+  &__icon:hover {
+    color: @red;
   }
 
   & + .article-card {
