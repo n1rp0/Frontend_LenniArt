@@ -1875,7 +1875,7 @@ textarea:focus::placeholder {
   padding-left: 146px;
 }
 .events {
-  padding: 140px 0 0 0;
+  padding: 20px 0 0 0;
 }
 .events__listing {
   margin-bottom: 150px;
