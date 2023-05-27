@@ -163,7 +163,7 @@ textarea:focus::placeholder {
   font-family: "Lora", serif;
   font-weight: 500;
   font-size: 36px;
-  line-height: 1.277;
+  line-height: 46.08px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -463,7 +463,10 @@ textarea:focus::placeholder {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 80px;
-  margin-top: 70px;
+  margin-top: 0;
+}
+.main-logo__lenni {
+  margin-bottom: 70px;
 }
 .main-logo__choice {
   display: -webkit-box;
@@ -487,6 +490,7 @@ textarea:focus::placeholder {
   font-size: 22px;
   line-height: 30px;
   margin-bottom: 60px;
+  margin-left: 25px;
 }
 .main-logo__btns {
   display: -webkit-box;
@@ -510,9 +514,10 @@ textarea:focus::placeholder {
   background-color: #bc3324;
   outline: none;
   color: #ffffff;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 21.79px;
   text-align: center;
   text-decoration: none;
   -webkit-transition: color 0.2s, background-color 0.2s, border-color 0.2s;
@@ -585,7 +590,7 @@ textarea:focus::placeholder {
   font-family: "Lora", serif;
   font-weight: 500;
   font-size: 36px;
-  line-height: 1.277;
+  line-height: 46.08px;
   text-align: center;
   text-transform: uppercase;
   margin-top: 128px;
@@ -666,7 +671,7 @@ textarea:focus::placeholder {
   max-width: 1334px;
   gap: 67px 150px;
   margin: 0 auto;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   grid-template-columns: 405px calc(89% - 405px);
   grid-template-areas: "checks scheme" "order legend";
 }
@@ -1114,7 +1119,7 @@ textarea:focus::placeholder {
   width: calc(50% - 30px);
 }
 .form__field {
-  margin: 0 0 15px;
+  margin: 0 0 30px;
 }
 .form__check-list {
   display: -webkit-box;
@@ -1777,7 +1782,7 @@ textarea:focus::placeholder {
   font-weight: 700;
 }
 .main-contacts {
-  margin-bottom: 150px;
+  margin-bottom: 130px;
 }
 .main-contacts__title {
   -webkit-box-sizing: border-box;
@@ -1801,7 +1806,7 @@ textarea:focus::placeholder {
   font-family: "Lora", serif;
   font-weight: 500;
   font-size: 36px;
-  line-height: 1.277;
+  line-height: 46.08px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -1878,7 +1883,7 @@ textarea:focus::placeholder {
   padding: 20px 0 0 0;
 }
 .events__listing {
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 }
 .events__info {
   display: -webkit-box;
@@ -2117,6 +2122,7 @@ textarea:focus::placeholder {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  padding-top: 100px;
   padding-bottom: 60px;
 }
 .page-footer__nav {
