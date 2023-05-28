@@ -24,6 +24,14 @@ body {
   line-height: 1.375;
   overflow-x: hidden;
   padding-top: 147px;
+
+  @media @bw1660 {
+    padding-top: 111px;
+  }
+  
+  @media @bw768 {
+    padding-top: 70px;
+  }
 }
 
 .main {
@@ -61,12 +69,12 @@ textarea {
 input,
 textarea {
   &::placeholder {
-    color: #6C6C6C;
+    color: #6c6c6c;
     transition: color 0.2s;
   }
   &:focus {
     &::placeholder {
-    color: transparent;
-    } 
+      color: transparent;
+    }
   }
 }
